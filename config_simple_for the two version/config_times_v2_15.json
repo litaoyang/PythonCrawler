@@ -1,0 +1,101 @@
+{
+    "XLS_FILENAME": "2015TIMES",
+    "ARWURtimes": {
+        "start_urls": ["http://www.usnews.com/education/best-global-universities/rankings?int=a27a09"],
+    	"next_page": [
+                "XPATH_CLICK","", 
+                ["",
+				"",
+				"/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/div[4]/label/select/option[5]"]
+        ],
+        "ranking_name": "ARWUR-times",
+        "table_tag": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[2]/text()"
+            },
+            "3": {
+                "content": "td[2]/div/span/text()",
+                "title": "NONE"
+            },
+            "4": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[3]/div/div/text()"
+            },
+            "5": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[4]/div/div/text()"
+            },
+            "6": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[5]/div/div/text()"
+            },
+            "7": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[6]/div/div/text()"
+            },
+            "8": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[7]/div/div/text()"
+            },
+            "9": {
+                "content": "td[8]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[8]/div/div/text()"
+            }
+        }
+    },
+    "FieldMEDtimes": {
+        "start_urls": ["http://www.usnews.com/education/best-global-universities/rankings?int=a27a09"],
+        "next_page": [
+            "XPATH_CLICK","0", 
+            ["",
+			"",
+			"/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/div[4]/label/select/option[5]"]
+        ],
+        "table_tag": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/tbody/tr",
+        "ranking_name": "MEDUR-times",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[2]/text()"
+            },
+            "3": {
+                "content": "td[2]/div/span/text()",
+                "title": "None"
+            },
+            "4": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[3]/div/text()"
+            },
+            "5": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[4]/div/text()"
+            },
+            "6": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[5]/div/text()"
+            },
+            "7": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[6]/div/text()"
+            },
+            "8": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[7]/div/text()"
+            },
+            "9": {
+                "content": "td[8]/text()",
+                "title": "/html/body/div[7]/div/section/div/section/div/div/div[1]/div/div[3]/div/div/div/div/table/thead/tr/th[8]/div/text()"
+            }
+        }
+    }
+}

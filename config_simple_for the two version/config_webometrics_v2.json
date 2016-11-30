@@ -1,0 +1,192 @@
+{
+    "XLS_FILENAME": "WEBOMETRICS",
+    "ARWUR-wo": {
+        "start_urls": ["http://www.webometrics.info/en/world"],
+        "next_page": [
+                "XPATH_URL",
+                ["/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href", "120"]
+        ],
+        "ranking_name": "ARUwebometrics",
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]/a/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a/text()"
+            },
+            "3": {
+                "content": "td[4]/center/img/@src",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[4]/text()"
+            },
+            "4": {
+                "content": "td[5]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a/text()"
+            },
+            "5": {
+                "content": "td[6]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a/text()"
+            },
+            "6": {
+                "content": "td[7]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a/text()"
+            },
+            "7": {
+                "content": "td[8]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a/text()"
+            }
+        }
+    },
+    "CHINAUR-wo": {
+        "start_urls": ["http://www.webometrics.info/en/Asia/China%20"],
+        "next_page": [
+                "XPATH_URL",
+                ["/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href", "25"]
+        ],
+        "ranking_name": "CNUwebometrics",
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a/text()"
+            },
+            "3": {
+                "content": "td[3]/a/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[3]/a/text()"
+            },
+            "4": {
+                "content": "td[5]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a/text()"
+            },
+            "5": {
+                "content": "td[6]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a/text()"
+            },
+            "6": {
+                "content": "td[7]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a/text()"
+            },
+            "7": {
+                "content": "td[8]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a/text()"
+            }
+        }
+    },
+	 "TAIWAN-wo": {
+ 	    "start_urls": ["http://www.webometrics.info/en/Asia/Taiwan?sort=asc&order=World%20Rank"],
+        "next_page": [
+                "XPATH_URL",
+                ["/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href", "2"]
+        ],
+        "ranking_name": "TAIWANwebometrics",
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a/text()"
+            },
+            "3": {
+                "content": "td[3]/a/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[3]/a/text()"
+            },
+            "4": {
+                "content": "td[5]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a/text()"
+            },
+            "5": {
+                "content": "td[6]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a/text()"
+            },
+            "6": {
+                "content": "td[7]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a/text()"
+            },
+            "7": {
+                "content": "td[8]/center/text()",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a/text()"
+            }
+        }
+    },
+    "MACUA-wo": {
+        "start_urls": ["http://www.webometrics.info/en/Asia/Macau"],
+        "next_page": ["NONE"],
+        "ranking_name": "MACUAwebometrics2016",
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr",
+        "columns": {
+            "1": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]/text()",
+                "content": "td[1]/center/text()"
+            },
+            "2": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a/text()",
+                "content": "td[2]/center/text()"
+            },
+            "3": {
+               "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[3]/a/text()",
+                "content": "td[3]/a/text()"
+            },
+            "4": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a/text()",
+                "content": "td[5]/center/text()"
+            },
+            "5": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a/text()",
+                "content": "td[6]/center/text()"
+            },
+            "6": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a/text()",
+                "content": "td[7]/center/text()"
+            },
+            "7": {
+                "title":"/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a/text()",
+                "content": "td[8]/center/text()"
+            }
+		}
+    },
+    "HONGKONG-wo": {
+        "start_urls": ["http://www.webometrics.info/en/Asia/Hong%20Kong"],
+        "next_page": ["NONE"],
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr",
+        "ranking_name": "HONGKONGwebometrics2016",
+        "columns": {
+            "1": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]/text()",
+                "content": "td[1]/center/text()"
+            },
+            "2": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a/text()",
+                "content": "td[2]/center/text()"
+            },
+            "3": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[3]/a/text()",
+                "content": "td[3]/a/text()"
+            },
+            "4": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a/text()",
+                "content": "td[5]/center/text()"
+            },
+            "5": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a/text()",
+                "content": "td[6]/center/text()"
+            },
+            "6": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a/text()",
+                "content": "td[7]/center/text()"
+            },
+            "7": {
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a/text()",
+                "content": "td[8]/center/text()"
+            }
+        }
+    }
+}
