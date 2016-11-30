@@ -1,0 +1,58 @@
+INFO:root:=============================================================
+INFO:root:logging begin here ...
+INFO:root:=============================================================
+INFO:scrapy.utils.log:Scrapy 1.0.5 started (bot: scrapybot)
+INFO:scrapy.utils.log:Optional features available: ssl, http11
+INFO:scrapy.utils.log:Overridden settings: {}
+INFO:root:process: <scrapy.crawler.CrawlerProcess object at 0x03488F30> 
+INFO:root:ranking_name: FieldMEDusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+ERROR:twisted:Unhandled error in Deferred:
+ERROR:twisted:Unhandled Error
+Traceback (most recent call last):
+  File "run_for_each.py", line 132, in <module>
+    process.crawl(USNEWSrankingSpider, config_rules_usnews[ranking_name], worksheet, logging)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1187, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1045, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\crawl.py", line 91, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+exceptions.TypeError: __init__() should return None, not 'generator'
+
+INFO:root:ranking_name: ARWURusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+ERROR:twisted:Unhandled error in Deferred:
+ERROR:twisted:Unhandled Error
+Traceback (most recent call last):
+  File "run_for_each.py", line 132, in <module>
+    process.crawl(USNEWSrankingSpider, config_rules_usnews[ranking_name], worksheet, logging)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1187, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1045, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\crawl.py", line 91, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+exceptions.TypeError: __init__() should return None, not 'generator'
+
+INFO:root:process.start() here ...
+INFO:root:before save workbook ...
+INFO:root:after save workbook ...

@@ -1,0 +1,69 @@
+# 051116:
+#   finish all the known questions,
+#   except these:
+1, nseac need add urls.
+2, check all the data one by one.
+
+# 051016:
+#  update the state of 050816 & new questions.
+
+
+Questions:
+  OK 1. fudan has a problem, a cell lost???
+  OK 2. qs:
+        a, need to deal with the stars things.
+        b, ARWU after 400 rows, the ranking col changed.
+  OK 3. wo has limit , status 111, connection refused.
+        OK, after setting the 'DOWNLOAD_DELAY' = 3.
+            & set try block to find id="errorTryAgain", status code: 111.
+
+FINISHed.
+    whole things here are:
+        1. finished all 7 spiders, except for fudan.
+        2. planning to fix each spider to the newest version first.
+        3. then make them in one spider with condition select functions.
+            need to work with config json patten.
+
+    STEP 2 (IN details):
+        1. shanghai:
+        2. qs:
+            a, need to deal with the stars things.
+            b, ARWU after 400 rows, the ranking col changed.
+        3. wo:
+        4. cuaa:
+        5. nseac:
+        6. usnews:
+        7. times:
+        8. fudan: wait for them until 051016. fix it or redo it.
+
+
+
+# 050916: from Lai
+# Some tips here:
+
+finish all the task before generate config by 0511.
+fix the tiny troubles for each one.
+& combine them together.
+
+A for the config generation and GUI, will be done after all these.
+
+
+# 050816
+
+whole things here are:
+    1. finished all 7 spiders, except for fudan.
+    2. planning to fix each spider to the newest version first.
+    3. then make them in one spider with condition select functions.
+        need to work with config json patten.
+
+STEP 2 (IN details):
+    1. shanghai:
+    2. qs:
+        a, need to deal with the stars things.
+        b, ARWU after 400 rows, the ranking col changed.
+    3. wo:
+    4. cuaa:
+    5. nseac:
+    6. usnews:
+    7. times:
+    8. fudan: wait for them until 051016. fix it or redo it.

@@ -1,0 +1,74 @@
+{
+    "ARWUR": {
+        "start_urls": "http://www.webometrics.info/en/world",
+        "next_page": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[11]/a",
+        "ranking_name": "ARUwebometrics",
+        "table_tag": "",
+        "columns": {
+            "1": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[1]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[1]/a"
+            },
+            "2": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[2]/a",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[2]/a"
+            },
+            "3": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[4]/center/img",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[4]"
+            },
+            "4": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[5]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[5]/a"
+            },
+            "5": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[6]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[6]/a"
+            },
+            "6": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[7]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[7]/a"
+            },
+            "7": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[8]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[1]/thead/tr/th[8]/a"
+            }
+        }
+    },
+    "CHINAUR": {
+        "start_urls": "http://www.webometrics.info/en/Asia/China%20",
+        "next_page": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[11]/a",
+        "ranking_name": "CNUwebometrics",
+        "table_tag": "",
+        "columns": {
+            "1": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[1]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[1]"
+            },
+            "2": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[2]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[2]/a"
+            },
+            "3": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[3]/a",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[3]/a"
+            },
+            "4": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[1]/td[5]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[5]/a"
+            },
+            "5": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[6]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[6]/a"
+            },
+            "6": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[7]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[7]/a"
+            },
+            "7": {
+                "content": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/tbody/tr[45]/td[8]/center",
+                "title": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/table[2]/thead/tr/th[8]/a"
+            }
+        }
+    }
+}

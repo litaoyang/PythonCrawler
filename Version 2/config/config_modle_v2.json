@@ -1,0 +1,67 @@
+{
+    "XLS_FILENAME": "QS-TOPUNIVERSITIES",
+    "QSARWU2015": {
+        "start_urls": ["http://www.topuniversities.com/university-rankings/world-university-rankings/2015#sorting=rank+region=+country=+faculty=+stars=false+search="],
+        "next_page": ["SHOWMORE_CLICK"],
+        "ranking_name": "QSARWU2015",
+        "flag": [
+            "for_QS",
+            {"content_special": [ ["1"], "content" ],
+             "count_stars": [ ["4"], "content" ] } ],
+        "table_tag": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/div/div/span[2]/text()",
+                "content_for_special": "td[1]/div/div/span/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/div/div/span[2]/a/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/div/img/@alt",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[3]/text()"
+            },
+            "4": {
+                "content": "td[4]/div/span",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[4]/text()"
+            },
+            "5": {
+                "content": "td[1]/div/div/span[3]/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[2]/div[1]/div/div/span/span[1]/span/text()"
+            }
+        }
+    },
+    "QSMED2016": {
+        "start_urls": ["http://www.topuniversities.com/university-rankings/university-subject-rankings/2016/medicine#sorting=rank+region=+country=+faculty=+stars=fa"],
+        "next_page": ["SHOWMORE_CLICK"],
+        "ranking_name": "QSMED2016",
+        "flag": [
+            "for_QS",
+            {"count_stars": [ ["4"], "content" ] } ],
+        "table_tag": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/div/div/span[2]/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/div/div/span[2]/a/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/div/img/@alt",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[3]/text()"
+            },
+            "4": {
+                "content": "td[4]/div/span",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[4]/text()"
+            },
+            "5": {
+                "content": "td[1]/div/div/span[3]/text()",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[2]/td[1]/div/div/span/span[1]/span/text()"
+            }
+        }
+    }
+}

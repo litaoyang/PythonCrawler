@@ -1,0 +1,88 @@
+INFO:root:=============================================================
+INFO:root:logging begin here ...
+INFO:root:=============================================================
+INFO:scrapy.utils.log:Scrapy 1.0.5 started (bot: scrapybot)
+INFO:scrapy.utils.log:Optional features available: ssl, http11
+INFO:scrapy.utils.log:Overridden settings: {}
+INFO:root:process: <scrapy.crawler.CrawlerProcess object at 0x0346BF30> 
+INFO:root:ranking_name: FieldMEDusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:18836/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe", "javascriptEnabled": true, "firefox_profile": "UEsDBBQAAAAIADltXUlzE2597wMAAOsOAAAHAAAAdXNlci5qc51XTW/bOBC9F9j/UOS0BWoiadpL95SmKbBA0SxqBDkSFDmyGFMklx9W/O93SFmI7ZiiszdR4pAzb968GUUPjloH7Z8XggXmwBoXpF4Ra5TkW5JeLmPTS++l0f/klzecgw0gLj6+b5ny8OGvP97FvXNMT3r2THnnTA/UcydtoC5qGmQPaHR9eWQxQCOc3OAaNGsUUM0CLilsQAePFsHF41uCMWotA9EQBuPWPdNsBY4I6dMJp2088Ohk2JKBOU03EgaMlPbyGQTxnRmo0RwKUT2xDRtDIcYGxMJnk7/1LT6a0o3wHED7vDtaxBLIGGEJu0MPMXpwycUB2Lpg0Tgz4IrcPfy8IdeEveTmhDvM2vP8mNANoKCH4LbEwRPw4sGTFx6Y493ujorHnrWQnxPdeqYw5Jpbu2STLgSbOLbgRmt0KwG8sOAWuBVphNZXxxw7RFYB2yRg81uoJv+wNDpgKnTjmqQbJQfSSufD76gLJ7xQnHkfsSyiRhg9AkqxtGL2eQ5XvD9ESyySHHe+JbhzeGPQMSdFgcTT1sAan2+41/cWSpG+UCFLhg8GAXaQg25RESh3zHcF49f1ok2Q7fbBZ4RmS4Z7u6NPxbMkUFj5wgxExN7ucW6+gnkHfH1reovq1EiV7tRy1QW1rUGxy16HerjL4AVrTAxfG8X0+qJgpjB+h7pZKYpJb88Q2mNHUFgUTyIdnao4JWCTRMETdMk4PorePHQzclsBzLStkrqUx7koCBNCJj1gtYAOtMR20nfbRfpssUAXCvQqJJJ++vKl3Ahmo7fIdRt8qhraG8FULY1ljVFmtUovd6jfzZ5zUl7nr362EuuUKUW8XGHvRdXwWLL/Runq13SAdrk0vkPLogrfxi9v63CzWvW6G721e43JyAafiqowaGWYINMokZrCYwd6meiGPs6U327qoAZlkYqYI0pnVbBDjq9Jtkkq40bOlvzTMCCVEt//P5GmZnXmENJKBfiE+uUkD9Q4iTSk42RYCc0BEwlUCHlq+JG64w16xM+YlBpl+FpJH86cBsaELXaisUAmh+jfDk60KWXzxbXn5VSUsyKwN3CxGEwJcKw6oxGzHvoG3DIvSxHMjIjVOeY18ZBVYys8wby9YJPz30eSLzka+lMj1iFTSb2nzGpBfSjDwhtTR1G66JPHKkrDrxyxO5GNF50bOonikChWkbm9uS1P1ntzGwdX+jk5MTHdKuOLDe0AB59+twJFV+c08Yy/tXkqT+WCFMX8KoVgN1sqRg2vNPRJGI4V4bo4C6rWRzuW2UiL0tCDr8S9fsyc9FeXRCLe5uH3zzNnJlRiq9gWxN3V5fIXzo6ZPp/T7v8AUEsBAhQAFAAAAAgAOW1dSXMTbn3vAwAA6w4AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAFAQAAAAA", "args": [], "platform": "ANY", "browserName": "firefox", "version": "", "marionette": false}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:==============================
+INFO:root:self.rule[start_urls]: [u'http://www.usnews.com/education/best-global-universities/clinical-medicine?int=994b08']
+INFO:root:#### self.next_page [u'URL_PATTERN', [u'http://www.usnews.com/education/best-global-universities/clinical-medicine?page=NUM', u'2', u'40']]
+INFO:root:#### self.flag ['NONE']
+INFO:root:Finish the __init__ method ... 
+INFO:root:***********************************
+INFO:root:=============================================================
+INFO:root:logging end here ...
+INFO:root:=============================================================
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:18836/hub/session/e93324fa-4ba8-4683-bfad-b12151679397 {"sessionId": "e93324fa-4ba8-4683-bfad-b12151679397"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:twisted:Unhandled error in Deferred:
+ERROR:twisted:Unhandled Error
+Traceback (most recent call last):
+  File "run_for_each.py", line 132, in <module>
+    process.crawl(USNEWSrankingSpider, config_rules_usnews[ranking_name], worksheet, logging)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1187, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1045, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\crawl.py", line 91, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "E:\scrapy_new\GraduationProject_PythonCrawler-master\webspider\webspider\spiders\usnewsranking.py", line 41, in __init__
+    self.browser.get(self.start_urls,headers={'User-Agent':"Windows;U;Windows NT 6.1;en-US;rv;1.9.1.6"})
+exceptions.TypeError: get() got an unexpected keyword argument 'headers'
+
+INFO:root:ranking_name: ARWURusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:18852/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe", "javascriptEnabled": true, "firefox_profile": "UEsDBBQAAAAIADxtXUlzE2597wMAAOsOAAAHAAAAdXNlci5qc51XTW/bOBC9F9j/UOS0BWoiadpL95SmKbBA0SxqBDkSFDmyGFMklx9W/O93SFmI7ZiiszdR4pAzb968GUUPjloH7Z8XggXmwBoXpF4Ra5TkW5JeLmPTS++l0f/klzecgw0gLj6+b5ny8OGvP97FvXNMT3r2THnnTA/UcydtoC5qGmQPaHR9eWQxQCOc3OAaNGsUUM0CLilsQAePFsHF41uCMWotA9EQBuPWPdNsBY4I6dMJp2088Ohk2JKBOU03EgaMlPbyGQTxnRmo0RwKUT2xDRtDIcYGxMJnk7/1LT6a0o3wHED7vDtaxBLIGGEJu0MPMXpwycUB2Lpg0Tgz4IrcPfy8IdeEveTmhDvM2vP8mNANoKCH4LbEwRPw4sGTFx6Y493ujorHnrWQnxPdeqYw5Jpbu2STLgSbOLbgRmt0KwG8sOAWuBVphNZXxxw7RFYB2yRg81uoJv+wNDpgKnTjmqQbJQfSSufD76gLJ7xQnHkfsSyiRhg9AkqxtGL2eQ5XvD9ESyySHHe+JbhzeGPQMSdFgcTT1sAan2+41/cWSpG+UCFLhg8GAXaQg25RESh3zHcF49f1ok2Q7fbBZ4RmS4Z7u6NPxbMkUFj5wgxExN7ucW6+gnkHfH1reovq1EiV7tRy1QW1rUGxy16HerjL4AVrTAxfG8X0+qJgpjB+h7pZKYpJb88Q2mNHUFgUTyIdnao4JWCTRMETdMk4PorePHQzclsBzLStkrqUx7koCBNCJj1gtYAOtMR20nfbRfpssUAXCvQqJJJ++vKl3Ahmo7fIdRt8qhraG8FULY1ljVFmtUovd6jfzZ5zUl7nr362EuuUKUW8XGHvRdXwWLL/Runq13SAdrk0vkPLogrfxi9v63CzWvW6G721e43JyAafiqowaGWYINMokZrCYwd6meiGPs6U327qoAZlkYqYI0pnVbBDjq9Jtkkq40bOlvzTMCCVEt//P5GmZnXmENJKBfiE+uUkD9Q4iTSk42RYCc0BEwlUCHlq+JG64w16xM+YlBpl+FpJH86cBsaELXaisUAmh+jfDk60KWXzxbXn5VSUsyKwN3CxGEwJcKw6oxGzHvoG3DIvSxHMjIjVOeY18ZBVYys8wby9YJPz30eSLzka+lMj1iFTSb2nzGpBfSjDwhtTR1G66JPHKkrDrxyxO5GNF50bOonikChWkbm9uS1P1ntzGwdX+jk5MTHdKuOLDe0AB59+twJFV+c08Yy/tXkqT+WCFMX8KoVgN1sqRg2vNPRJGI4V4bo4C6rWRzuW2UiL0tCDr8S9fsyc9FeXRCLe5uH3zzNnJlRiq9gWxN3V5fIXzo6ZPp/T7v8AUEsBAhQAFAAAAAgAPG1dSXMTbn3vAwAA6w4AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAFAQAAAAA", "args": [], "platform": "ANY", "browserName": "firefox", "version": "", "marionette": false}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:==============================
+INFO:root:self.rule[start_urls]: [u'http://www.usnews.com/education/best-global-universities/rankings?int=a27a09']
+INFO:root:#### self.next_page [u'URL_PATTERN', [u'http://www.usnews.com/education/best-global-universities/rankings?page=NUM', u'2', u'100']]
+INFO:root:#### self.flag ['NONE']
+INFO:root:Finish the __init__ method ... 
+INFO:root:***********************************
+INFO:root:=============================================================
+INFO:root:logging end here ...
+INFO:root:=============================================================
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:18852/hub/session/fd9d3807-e42d-43a3-822a-06fe7ebcfa56 {"sessionId": "fd9d3807-e42d-43a3-822a-06fe7ebcfa56"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+ERROR:twisted:Unhandled error in Deferred:
+ERROR:twisted:Unhandled Error
+Traceback (most recent call last):
+  File "run_for_each.py", line 132, in <module>
+    process.crawl(USNEWSrankingSpider, config_rules_usnews[ranking_name], worksheet, logging)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 153, in crawl
+    d = crawler.crawl(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1187, in unwindGenerator
+    return _inlineCallbacks(None, gen, Deferred())
+--- <exception caught here> ---
+  File "D:\Python27\lib\site-packages\twisted\internet\defer.py", line 1045, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 70, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\crawler.py", line 80, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\crawl.py", line 91, in from_crawler
+    spider = super(CrawlSpider, cls).from_crawler(crawler, *args, **kwargs)
+  File "D:\Python27\lib\site-packages\scrapy-1.0.5-py2.7.egg\scrapy\spiders\__init__.py", line 50, in from_crawler
+    spider = cls(*args, **kwargs)
+  File "E:\scrapy_new\GraduationProject_PythonCrawler-master\webspider\webspider\spiders\usnewsranking.py", line 41, in __init__
+    self.browser.get(self.start_urls,headers={'User-Agent':"Windows;U;Windows NT 6.1;en-US;rv;1.9.1.6"})
+exceptions.TypeError: get() got an unexpected keyword argument 'headers'
+
+INFO:root:process.start() here ...
+INFO:root:before save workbook ...
+INFO:root:after save workbook ...

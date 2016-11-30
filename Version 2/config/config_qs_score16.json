@@ -1,0 +1,52 @@
+{
+    "XLS_FILENAME": "QSRanking2015",
+    "ARWURtimes": {
+        "start_urls": ["http://www.topuniversities.com/university-rankings/world-university-rankings/2016#sorting=rank+region=+country=+faculty=+stars=false+search="],
+    	"next_page": [
+                "XPATH_CLICK", 
+                ["/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[3]/div[3]/label/span[2]/span[2]",
+				"/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[1]/div[2]/div[2]/div[3]/label/span[2]"]
+        ],
+        "ranking_name": "QSRanking2015_2015",
+       "table_tag1": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[2]/div[2]/div[2]/div[3]/div[2]/div/table/tbody/tr",
+       "table_tag2":"/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr",
+		"columns": {
+            "1": {
+                "content": "td[1]/div/div/div/span[2]/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[3]/div[1]/table/thead/tr/th[1]/div/div[1]/div/span/text()"
+            },
+            "2": {
+                "content": "td[2]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[3]/div[1]/table/thead/tr/th[2]/div/div[1]/div/text()"
+            },
+            "3": {
+                "content": "td[3]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[3]/div/div[1]/div/text()"
+            },
+            "4": {
+                "content": "td[4]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[4]/div/div[1]/div/text()"
+            },
+			"5": {
+                "content": "td[5]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[5]/div/div[1]/div/text()"
+            },
+			"6": {
+                "content": "td[6]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[6]/div/div[1]/div/text()"
+            },
+			"7": {
+                "content": "td[7]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[7]/div/div[1]/div/text()"
+            },
+			"8": {
+                "content": "td[8]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[8]/div/div[1]/div/text()"
+            },
+			"9": {
+                "content": "td[9]/div/div/text()",
+                "title": "/html/body/div[1]/div[3]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[10]/div/div/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/table/thead/tr/th[9]/div/div[1]/div/text()"
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+{
+    "CHINAUR001-100": {
+        "start_urls": ["http://www.cuaa.net/cur/2015/index_700",],
+        "ranking_name": "CNUR001-100-cuaa",
+        "table_tag": "",
+        "columns": {
+            "1": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[1]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[1]/p/b/text()"
+            },
+            "2": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[2]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[2]/p/b/text()"
+            },
+            "3": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[3]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[3]/p/b/text()"
+            },
+            "4": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[4]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[2]/td[1]/p/b/text()"
+            },
+            "5": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[5]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[2]/td[2]/p/b/text()"
+            },
+            "6": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[6]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[5]/p/b[1]/text()"
+            },
+            "7": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[7]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[6]/p/b[1]/text()"
+            },
+            "8": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[8]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[7]/p/b[1]/text()"
+            },
+            "9": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[9]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[8]/p/b[1]/text()"
+            },
+            "10": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[10]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[2]/td[3]/p/b[1]/text()"
+            },
+            "11": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[11]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[2]/td[4]/p/b[1]/text()"
+            },
+            "12": {
+                "content": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[4]/td[12]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[2]/td[5]/p/b[1]/text()"
+            }
+        }
+    },
+    "CHINAUR101-700": {
+        "start_urls": ["http://www.cuaa.net/cur/2015/03_700",
+		       "http://www.cuaa.net/cur/2015/04_700",
+		       "http://www.cuaa.net/cur/2015/05_700",
+		       "http://www.cuaa.net/cur/2015/06_700",
+		       "http://www.cuaa.net/cur/2015/07_700",
+		       "http://www.cuaa.net/cur/2015/08" ],
+        "table_tag": "",
+        "ranking_name": "CNUR101-700-cuaa",
+        "columns": {
+            "1": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[1]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[1]/p/b/text()"
+            },
+            "2": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[2]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[2]/p/b/text()"
+            },
+            "3": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[3]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[3]/p/b/text()"
+            },
+            "4": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[4]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[2]/td[1]/p/b/text()"
+            },
+            "5": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[5]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[2]/td[2]/p/b/text()"
+            },
+            "6": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[6]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[5]/p/b[1]/text()"
+            },
+            "7": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[7]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[6]/p/b[1]/text()"
+            },
+            "8": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[8]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[7]/p/b[1]/text()"
+            },
+            "9": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[9]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[1]/td[8]/p/b[1]/text()"
+            },
+            "10": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[10]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[2]/td[3]/p/b[1]/text()"
+            },
+            "11": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[11]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[2]/td[4]/p/b[1]/text()"
+            },
+            "12": {
+                "content": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[3]/td[12]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[4]/td/div/table/tbody/tr[2]/td[5]/p/b[1]/text()"
+            }
+        }
+    }
+}

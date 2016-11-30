@@ -1,0 +1,57 @@
+{
+    "XLS_FILENAME": "2015USNEWS",
+    "ARWURusnews": {
+        "start_urls": ["http://www.usnews.com/education/best-global-universities/rankings?int=a27a09"],
+	"next_page": [
+		"URL_PATTERN",
+		["http://www.usnews.com/education/best-global-universities/rankings?page=NUM", "2", "100"]
+	],
+        "ranking_name": "ARWUR-usnews",
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[4]/div/div[1]/div[@class=\"sep\"]",
+        "columns": {
+            "1": {
+                "content": "div[2]/span/text()",
+                "title": "None"
+            },
+            "2": {
+                "content": "div[3]/h2/a/text()",
+                "title": "None"
+            },
+            "3": {
+                "content": "div[3]/div/span[1]/text()",
+                "title": "None"
+            },
+            "4": {
+                "content": "div[1]/div[1]/text()",
+                "title": "None"
+            }
+        }
+    },
+    "FieldMEDusnews": {
+        "start_urls": ["http://www.usnews.com/education/best-global-universities/clinical-medicine?int=994b08"],
+	"next_page": [
+		"URL_PATTERN",
+		["http://www.usnews.com/education/best-global-universities/clinical-medicine?page=NUM", "2", "40"]
+	],
+        "table_tag": "/html/body/div[2]/div[3]/div[2]/div[4]/div/div[1]/div[@class=\"sep\"]",
+        "ranking_name": "MEDUR-usnews",
+        "columns": {
+            "1": {
+                "content": "div[2]/span/text()",
+                "title": "None"
+            },
+            "2": {
+                "content": "div[3]/h2/a/text()",
+                "title": "None"
+            },
+            "3": {
+                "content": "div[3]/div[1]/span[1]/text()",
+                "title": "None"
+            },
+            "4": {
+                "content": "div[1]/div[1]/text()",
+                "title": "None"
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+INFO:root:=============================================================
+INFO:root:logging begin here ...
+INFO:root:=============================================================
+INFO:scrapy.utils.log:Scrapy 1.0.5 started (bot: scrapybot)
+INFO:scrapy.utils.log:Optional features available: ssl, http11
+INFO:scrapy.utils.log:Overridden settings: {}
+INFO:root:process: <scrapy.crawler.CrawlerProcess object at 0x0347AE90> 
+INFO:root:ranking_name: FieldMEDusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:12865/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe", "javascriptEnabled": true, "firefox_profile": "UEsDBBQAAAAIAO9hXUlzE2597wMAAOsOAAAHAAAAdXNlci5qc51XTW/bOBC9F9j/UOS0BWoiadpL95SmKbBA0SxqBDkSFDmyGFMklx9W/O93SFmI7ZiiszdR4pAzb968GUUPjloH7Z8XggXmwBoXpF4Ra5TkW5JeLmPTS++l0f/klzecgw0gLj6+b5ny8OGvP97FvXNMT3r2THnnTA/UcydtoC5qGmQPaHR9eWQxQCOc3OAaNGsUUM0CLilsQAePFsHF41uCMWotA9EQBuPWPdNsBY4I6dMJp2088Ohk2JKBOU03EgaMlPbyGQTxnRmo0RwKUT2xDRtDIcYGxMJnk7/1LT6a0o3wHED7vDtaxBLIGGEJu0MPMXpwycUB2Lpg0Tgz4IrcPfy8IdeEveTmhDvM2vP8mNANoKCH4LbEwRPw4sGTFx6Y493ujorHnrWQnxPdeqYw5Jpbu2STLgSbOLbgRmt0KwG8sOAWuBVphNZXxxw7RFYB2yRg81uoJv+wNDpgKnTjmqQbJQfSSufD76gLJ7xQnHkfsSyiRhg9AkqxtGL2eQ5XvD9ESyySHHe+JbhzeGPQMSdFgcTT1sAan2+41/cWSpG+UCFLhg8GAXaQg25RESh3zHcF49f1ok2Q7fbBZ4RmS4Z7u6NPxbMkUFj5wgxExN7ucW6+gnkHfH1reovq1EiV7tRy1QW1rUGxy16HerjL4AVrTAxfG8X0+qJgpjB+h7pZKYpJb88Q2mNHUFgUTyIdnao4JWCTRMETdMk4PorePHQzclsBzLStkrqUx7koCBNCJj1gtYAOtMR20nfbRfpssUAXCvQqJJJ++vKl3Ahmo7fIdRt8qhraG8FULY1ljVFmtUovd6jfzZ5zUl7nr362EuuUKUW8XGHvRdXwWLL/Runq13SAdrk0vkPLogrfxi9v63CzWvW6G721e43JyAafiqowaGWYINMokZrCYwd6meiGPs6U327qoAZlkYqYI0pnVbBDjq9Jtkkq40bOlvzTMCCVEt//P5GmZnXmENJKBfiE+uUkD9Q4iTSk42RYCc0BEwlUCHlq+JG64w16xM+YlBpl+FpJH86cBsaELXaisUAmh+jfDk60KWXzxbXn5VSUsyKwN3CxGEwJcKw6oxGzHvoG3DIvSxHMjIjVOeY18ZBVYys8wby9YJPz30eSLzka+lMj1iFTSb2nzGpBfSjDwhtTR1G66JPHKkrDrxyxO5GNF50bOonikChWkbm9uS1P1ntzGwdX+jk5MTHdKuOLDe0AB59+twJFV+c08Yy/tXkqT+WCFMX8KoVgN1sqRg2vNPRJGI4V4bo4C6rWRzuW2UiL0tCDr8S9fsyc9FeXRCLe5uH3zzNnJlRiq9gWxN3V5fIXzo6ZPp/T7v8AUEsBAhQAFAAAAAgA72FdSXMTbn3vAwAA6w4AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAFAQAAAAA", "args": [], "platform": "ANY", "browserName": "firefox", "version": "", "marionette": false}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:==============================
+INFO:root:self.rule[start_urls]: [u'http://www.usnews.com/education/best-global-universities/clinical-medicine?int=994b08']
+INFO:root:#### self.next_page [u'URL_PATTERN', [u'http://www.usnews.com/education/best-global-universities/clinical-medicine?page=NUM', u'2', u'40']]
+INFO:root:#### self.flag ['NONE']
+INFO:root:Finish the __init__ method ... 
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+INFO:scrapy.middleware:Enabled item pipelines: 
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6024
+INFO:root:ranking_name: ARWURusnews 
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:12883/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"binary": "C:\\Program Files\\Mozilla Firefox\\firefox.exe", "javascriptEnabled": true, "firefox_profile": "UEsDBBQAAAAIAPJhXUlzE2597wMAAOsOAAAHAAAAdXNlci5qc51XTW/bOBC9F9j/UOS0BWoiadpL95SmKbBA0SxqBDkSFDmyGFMklx9W/O93SFmI7ZiiszdR4pAzb968GUUPjloH7Z8XggXmwBoXpF4Ra5TkW5JeLmPTS++l0f/klzecgw0gLj6+b5ny8OGvP97FvXNMT3r2THnnTA/UcydtoC5qGmQPaHR9eWQxQCOc3OAaNGsUUM0CLilsQAePFsHF41uCMWotA9EQBuPWPdNsBY4I6dMJp2088Ohk2JKBOU03EgaMlPbyGQTxnRmo0RwKUT2xDRtDIcYGxMJnk7/1LT6a0o3wHED7vDtaxBLIGGEJu0MPMXpwycUB2Lpg0Tgz4IrcPfy8IdeEveTmhDvM2vP8mNANoKCH4LbEwRPw4sGTFx6Y493ujorHnrWQnxPdeqYw5Jpbu2STLgSbOLbgRmt0KwG8sOAWuBVphNZXxxw7RFYB2yRg81uoJv+wNDpgKnTjmqQbJQfSSufD76gLJ7xQnHkfsSyiRhg9AkqxtGL2eQ5XvD9ESyySHHe+JbhzeGPQMSdFgcTT1sAan2+41/cWSpG+UCFLhg8GAXaQg25RESh3zHcF49f1ok2Q7fbBZ4RmS4Z7u6NPxbMkUFj5wgxExN7ucW6+gnkHfH1reovq1EiV7tRy1QW1rUGxy16HerjL4AVrTAxfG8X0+qJgpjB+h7pZKYpJb88Q2mNHUFgUTyIdnao4JWCTRMETdMk4PorePHQzclsBzLStkrqUx7koCBNCJj1gtYAOtMR20nfbRfpssUAXCvQqJJJ++vKl3Ahmo7fIdRt8qhraG8FULY1ljVFmtUovd6jfzZ5zUl7nr362EuuUKUW8XGHvRdXwWLL/Runq13SAdrk0vkPLogrfxi9v63CzWvW6G721e43JyAafiqowaGWYINMokZrCYwd6meiGPs6U327qoAZlkYqYI0pnVbBDjq9Jtkkq40bOlvzTMCCVEt//P5GmZnXmENJKBfiE+uUkD9Q4iTSk42RYCc0BEwlUCHlq+JG64w16xM+YlBpl+FpJH86cBsaELXaisUAmh+jfDk60KWXzxbXn5VSUsyKwN3CxGEwJcKw6oxGzHvoG3DIvSxHMjIjVOeY18ZBVYys8wby9YJPz30eSLzka+lMj1iFTSb2nzGpBfSjDwhtTR1G66JPHKkrDrxyxO5GNF50bOonikChWkbm9uS1P1ntzGwdX+jk5MTHdKuOLDe0AB59+twJFV+c08Yy/tXkqT+WCFMX8KoVgN1sqRg2vNPRJGI4V4bo4C6rWRzuW2UiL0tCDr8S9fsyc9FeXRCLe5uH3zzNnJlRiq9gWxN3V5fIXzo6ZPp/T7v8AUEsBAhQAFAAAAAgA8mFdSXMTbn3vAwAA6w4AAAcAAAAAAAAAAAAAALaBAAAAAHVzZXIuanNQSwUGAAAAAAEAAQA1AAAAFAQAAAAA", "args": [], "platform": "ANY", "browserName": "firefox", "version": "", "marionette": false}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:root:==============================
+INFO:root:self.rule[start_urls]: [u'http://www.usnews.com/education/best-global-universities/rankings?int=a27a09']
+INFO:root:#### self.next_page [u'URL_PATTERN', [u'http://www.usnews.com/education/best-global-universities/rankings?page=NUM', u'2', u'100']]
+INFO:root:#### self.flag ['NONE']
+INFO:root:Finish the __init__ method ... 
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+INFO:scrapy.middleware:Enabled item pipelines: 
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6025
+INFO:root:process.start() here ...
+DEBUG:scrapy.core.engine:Crawled (403) <GET http://www.usnews.com/education/best-global-universities/clinical-medicine?int=994b08> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (403) <GET http://www.usnews.com/education/best-global-universities/rankings?int=a27a09> (referer: None)
+DEBUG:scrapy.spidermiddlewares.httperror:Ignoring response <403 http://www.usnews.com/education/best-global-universities/clinical-medicine?int=994b08>: HTTP status code is not handled or not allowed
+DEBUG:scrapy.spidermiddlewares.httperror:Ignoring response <403 http://www.usnews.com/education/best-global-universities/rankings?int=a27a09>: HTTP status code is not handled or not allowed
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 275,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 508,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 29, 4, 15, 44, 931000),
+ 'log_count/DEBUG': 10,
+ 'log_count/INFO': 25,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 10, 29, 4, 15, 36, 707000)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 266,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 495,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 29, 4, 15, 44, 939000),
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 16,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 10, 29, 4, 15, 44, 387000)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:root:before save workbook ...
+INFO:root:after save workbook ...

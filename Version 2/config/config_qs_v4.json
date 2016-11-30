@@ -1,0 +1,30 @@
+{
+    "XLS_FILENAME": "QSRanking",
+    "ARWURtimes-2015": {
+        "start_urls": ["http://www.topuniversities.com/university-rankings/world-university-rankings/2015#sorting=rank+region=+country=+faculty=+stars=false+search="],
+    	"next_page": [
+                "XPATH_CLICK", 
+                ["/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/div[2]/div[3]/label/span[2]/div/div/span/span/ul/li[3]/span"]
+        ],
+        "ranking_name": "ARWUR-times",
+       "table_tag": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/table/tbody/tr",
+        "columns": {
+            "1": {
+                "content": "td[1]/div/div[1]/span[2]/text()",
+                "title": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/table/thead/tr[1]/td[1]/div/span/text()"
+            },
+            "2": {
+                "content": "td[2]/div/a/text()",
+                "title": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/table/thead/tr[1]/td[2]/div/text()"
+            },
+            "3": {
+                "content": "td[3]/div/img/@alt",
+                "title": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/table/thead/tr[1]/td[3]/div/text()"
+            },
+            "4": {
+                "content": "td[5]/div/div/text()",
+                "title": "/html/body/div[1]/div[2]/div/div/div/div[1]/div/div[1]/div/div[1]/div/div/div[14]/div/div/div/div/div[1]/div[2]/table/thead/tr[1]/td[5]/div/a/text()"
+            }
+        }
+    }
+}

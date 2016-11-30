@@ -1,0 +1,58 @@
+{
+    "XLS_FILENAME": "NSEAC",
+    "CHINAUR": {
+        "start_urls": ["http://www.nseac.com/html/14/666311.html"],
+        "next_page": [
+                "URL_LIST", 
+                ["http://www.nseac.com/html/14/666311_2.html",
+                    "http://www.nseac.com/html/14/666311_3.html",
+                    "http://www.nseac.com/html/14/666311_4.html",
+                    "http://www.nseac.com/html/14/666311_5.html",
+                    "http://www.nseac.com/html/14/666311_6.html",
+                    "http://www.nseac.com/html/14/666312.html",
+                    "http://www.nseac.com/html/14/666312_2.html",
+                    "http://www.nseac.com/html/14/666312_3.html",
+                    "http://www.nseac.com/html/14/666312_4.html",
+                    "http://www.nseac.com/html/14/666312_5.html",
+                    "http://www.nseac.com/html/14/666312_6.html",
+                    "http://www.nseac.com/html/14/666313.html",
+                    "http://www.nseac.com/html/14/666313_2.html",
+                    "http://www.nseac.com/html/14/666313_3.html",
+                    "http://www.nseac.com/html/14/666313_4.html",
+                    "http://www.nseac.com/html/14/666313_5.html",
+                    "http://www.nseac.com/html/14/666313_6.html" ]
+        ],        
+        "ranking_name": "CNURnseac",
+        "table_tag": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[1]/center/font/b/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[2]/center/font/b/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[3]/center/font/b/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[4]/center/font/b/text()"
+            },
+            "5": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[5]/center/font/b/text()"
+            },
+            "6": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[6]/center/font/b/text()"
+            },
+            "7": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[7]/center/font/b/text()"
+            }
+        }
+    }
+}

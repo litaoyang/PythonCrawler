@@ -1,0 +1,34 @@
+Time: 12:54, Apr 14, 2016
+
+Finished the ShanghaiRanking Part, and stored data in ../ShanghaiRanking.xls .
+BTW, config_shanghairanking_v2.json 's format is pretty good now.
+
+Here is the improvment idea of it:
+    1. for the column of Nation, we got <img src="image/flag/USA.png">,
+        since it's may not able to using re with xpath filters in json files,
+        So, we are going to do some special re with this column.
+    2. here we are done with ShanghaiRanking,
+        next we are going to deal with the other ones.
+
+###############################################################################
+
+first, use json file as the rule configraton file.
+    1.add specific xpath for each cloumn item.
+      表格每行的循环的话，就不能制定准确的xpath，所以具体是哪一行我们用循环来将行数插入到xpath
+      string中。
+    2.create one json file for one website.
+    3.for the item in Item that we don't have, we dont list it here.
+
+second, use something(list or maybe Item) to store each row of table,
+        then storing to excel files.
+       1. we create Item with all the item we need, if we dont have it here, for
+          example: index_top, OK, we just put it blank. And we dump it to excel,
+          the column just blank, its of cource OK for it
+
+
+third, read from rules config files, genrate the spider_for_each_rules.
+        fill up the Item.
+
+明天：
+按照三部曲写spider.
+http://wuchong.me/blog/2015/05/22/running-scrapy-dynamic-and-configurable/

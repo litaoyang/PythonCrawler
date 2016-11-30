@@ -1,0 +1,13 @@
+#class ShanghairankingItem(scrapy.Item):
+#        world_ranking = scrapy.Field()
+#        schoolname = scrapy.Field()
+#        location = scrapy.Field()
+#        nation_ranking = scrapy.Field()
+#        total_score = scrapy.Field()
+#        index_alumni = scrapy.Field()
+#        index_award = scrapy.Field()
+#        index_hici = scrapy.Field()
+#        index_ns = scrapy.Field()
+#        index_pub = scrapy.Field()
+#        index_pcp = scrapy.Field()
+#        index_top = scrapy.Field()

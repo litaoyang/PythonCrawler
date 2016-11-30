@@ -1,0 +1,99 @@
+{
+    "XLS_FILENAME": "2016zuihaodaxue",
+    "ARWUR": {
+        "start_urls": ["http://www.zuihaodaxue.com/ARWU2016.html"],
+        "next_page": ["NONE"],
+        "ranking_name": "ShanghaiRankingARWU2016",
+        "table_tag": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/tbody/tr[position()>0]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/a/img[@src]",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[3]/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[4]/text()"
+            },
+            "5": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/text()"
+            },
+            "6": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[1]/text()"
+            },
+            "7": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[2]/text()"
+            },
+            "8": {
+                "content": "td[8]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[3]/text()"
+            },
+            "9": {
+                "content": "td[9]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[4]/text()"
+            },
+            "10": {
+                "content": "td[10]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[5]/text()"
+            },
+            "11": {
+                "content": "td[11]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[6]//option[6]/text()"
+            }
+        }
+    },
+    "FieldMED": {
+        "start_urls": ["http://www.zuihaodaxue.com/FieldMED2016.html"],
+        "next_page": ["NONE"],
+        "table_tag": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/tbody/tr[position()>0]",
+        "ranking_name": "ShanghaiRankingFieldMED2016",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/img[@src]",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[3]/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[4]/text()"
+            },
+            "5": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/select/option[1]/text()"
+            },
+            "6": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/select/option[2]/text()"
+            },
+            "7": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/select/option[3]/text()"
+            },
+            "8": {
+                "content": "td[8]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/select/option[4]/text()"
+            },
+            "9": {
+                "content": "td[9]/text()",
+                "title": "/html/body/div[3]/div/div[2]/div/div[4]/div/table/thead/tr/th[5]/select/option[5]/text()"
+            }
+        }
+    }
+}

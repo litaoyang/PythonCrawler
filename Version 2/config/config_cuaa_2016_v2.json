@@ -1,0 +1,55 @@
+{
+    "XLS_FILENAME": "2016CUAA",
+    "CHINAUR-cuaa2016": {
+        "start_urls": ["http://www.cuaa.net/cur/2016/"],
+        "next_page": ["NONE"],      
+        "ranking_name": "CNUR001-100-cuaa2016",
+        "table_tag": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[position()>2]",
+        "columns": {
+            "1": {
+                "content": "td[1]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[1]/p/b/text()"
+            },
+            "2": {
+                "content": "td[2]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[2]/p/b/text()"
+            },
+            "3": {
+                "content": "td[3]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[3]/p/b/text()"
+            },
+            "4": {
+                "content": "td[4]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[4]/p/b/text()"
+            },
+            "5": {
+                "content": "td[5]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[5]/p/b/text()"
+            },
+            "6": {
+                "content": "td[6]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[6]/p/b[1]/text()"
+            },
+            "7": {
+                "content": "td[7]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[7]/p/b[1]/text()"
+            },
+            "8": {
+                "content": "td[8]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[8]/p/b[1]/text()"
+            },
+            "9": {
+                "content": "td[9]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[1]/p/b/text()"
+            },
+            "10": {
+                "content": "td[10]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[2]/p/b/text()"
+            },
+            "11": {
+                "content": "td[11]/p/text()",
+                "title": "/html/body/table[3]/tbody/tr[5]/td/div[9]/table/tbody/tr[1]/td[3]/p/b/text()"
+            }
+        }
+    }
+}
