@@ -1,0 +1,102 @@
+{
+    "XLS_FILENAME": "NSEAC2015",
+    "CHINAUR-nseac2015": {
+        "start_urls": ["http://www.nseac.com/html/14/666311.html"],
+        "next_page": [
+                "URL_LIST", 
+                ["http://www.nseac.com/html/14/666311_2.html",
+                    "http://www.nseac.com/html/14/666311_3.html",
+                    "http://www.nseac.com/html/14/666311_4.html",
+                    "http://www.nseac.com/html/14/666311_5.html",
+                    "http://www.nseac.com/html/14/666311_6.html",
+                    "http://www.nseac.com/html/14/666312.html",
+                    "http://www.nseac.com/html/14/666312_2.html",
+                    "http://www.nseac.com/html/14/666312_3.html",
+                    "http://www.nseac.com/html/14/666312_4.html",
+                    "http://www.nseac.com/html/14/666312_5.html",
+                    "http://www.nseac.com/html/14/666312_6.html",
+                    "http://www.nseac.com/html/14/666313.html",
+                    "http://www.nseac.com/html/14/666313_2.html",
+                    "http://www.nseac.com/html/14/666313_3.html",
+                    "http://www.nseac.com/html/14/666313_4.html",
+                    "http://www.nseac.com/html/14/666313_5.html",
+                    "http://www.nseac.com/html/14/666313_6.html" ]
+        ],        
+        "ranking_name": "CNURnseac2015",
+        "table_tag": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[1]/center/font/b/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[2]/center/font/b/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[3]/center/font/b/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[4]/center/font/b/text()"
+            },
+            "5": {
+                "content": "td[5]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[5]/center/font/b/text()"
+            },
+            "6": {
+                "content": "td[6]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[6]/center/font/b/text()"
+            },
+            "7": {
+                "content": "td[7]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[7]/center/font/b/text()"
+            }
+        }
+    },
+    "MED-nseac2015": {
+        "start_urls": ["http://www.nseac.com/html/258/665742.html"],
+        "next_page": ["NONE"],
+        "ranking_name": "MEDURnseac2015",
+        "table_tag": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[1]/center/font/b/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[2]/center/font/b/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[3]/center/font/b/text()"
+            }
+        }
+    },
+    "CLMED-nseac2015": {
+        "start_urls": ["http://www.nseac.com/html/261/665958.html"],
+        "next_page": ["NONE"], 
+        "ranking_name": "CLMEDURnseac2015",
+        "table_tag": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[1]/center/font/b/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[2]/center/font/b/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[3]/center/font/b/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title": "/html/body/div[@class=\"container\"][3]/div/div[1]/div[1]/table[1]/tbody/tr/td/center/div/table/tbody/tr[1]/td[4]/center/font/b/text()"
+            }			
+        }
+    }
+}

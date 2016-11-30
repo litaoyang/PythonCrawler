@@ -1,0 +1,26 @@
+{
+    "ARWUR": {
+        "world_ranking": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[1]/text()",
+        "school_name": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[2]/a/text()",
+        "location": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[3]/a/img[@src]",
+        "nation_ranking": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[4]/div/text()",
+        "total_score": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[5]/div/text()",
+        "index_alumni": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[6]/div/text()",
+        "index_award": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[7]/div/text()",
+        "index_hici": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[8]/div/text()",
+        "index_ns": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[9]/div/text()",
+        "index_pub": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[10]/div/text()",
+        "index_pcp": "//*[@id=\"UniversityRanking \"]/tbody/tr/td[11]/div/text()"
+    },
+    "FieldMED": {
+        "world_ranking": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[1]/text()",
+        "school_name": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[2]/a/text()",
+        "location": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[3]/img[@src]",
+        "total_score": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[4]/div/text()",
+        "index_alumni": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[5]/div/text()",
+        "index_award": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[6]/div/text()",
+        "index_hici": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[7]/div/text()",
+        "index_pub": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[8]/div/text()",
+        "index_top": "//*[@id=\"UniversityRanking\"]/tbody/tr/td[9]/div/text()"
+    }
+}

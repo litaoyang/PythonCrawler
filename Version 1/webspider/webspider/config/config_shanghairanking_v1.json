@@ -1,0 +1,88 @@
+{
+    "ARWUR": {
+        "start_url": "http://www.shanghairanking.cn/ARWU2015.html",
+        "1": {
+            "world_ranking_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[1]/text()",
+            "world_ranking_c": "//*[@id=\"UniversityRanking\"]//tr/td[1]/text()"
+        },
+        "2": {
+            "school_name_c": "//*[@id=\"UniversityRanking\"]//tr/td[2]/a/text()",
+            "school_name_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[2]/text()"
+        },
+        "3": {
+            "location_c": "//*[@id=\"UniversityRanking\"]//tr/td[3]/a/img[@src]",
+            "location_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[3]/text()"
+        },
+        "4": {
+            "nation_ranking_c": "//*[@id=\"UniversityRanking\"]//tr/td[4]/div/text()",
+            "nation_ranking_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[4]/text()"
+        },
+        "5": {
+            "total_score_c": "//*[@id=\"UniversityRanking\"]//tr/td[5]/div/text()",
+            "total_score_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[5]/text()"
+        },
+        "6": {
+            "index_alumni_c": "//*[@id=\"UniversityRanking\"]//tr/td[6]/div/text()",
+            "index_alumni_t": "//*[@id=\"criteria\"]/option[1]/text()"
+        },
+        "7": {
+            "index_award_c": "//*[@id=\"UniversityRanking\"]//tr/td[7]/div/text()",
+            "index_award_t": "//*[@id=\"criteria\"]/option[2]/text()"
+        },
+        "8": {
+            "index_hici_c": "//*[@id=\"UniversityRanking\"]//tr/td[8]/div/text()",
+            "index_hici_t": "//*[@id=\"criteria\"]/option[3]/text()"
+        },
+        "9": {
+            "index_ns_c": "//*[@id=\"UniversityRanking\"]//tr/td[9]/div/text()",
+            "index_ns_t": "//*[@id=\"criteria\"]/option[4]/text()"
+        },
+        "10": {
+            "index_pub_c": "//*[@id=\"UniversityRanking\"]//tr/td[10]/div/text()",
+            "index_pub_t": "//*[@id=\"criteria\"]/option[5]/text()"
+        },
+        "11": {
+            "index_pcp_c": "//*[@id=\"UniversityRanking\"]//tr/td[11]/div/text()",
+            "index_pcp_t": "//*[@id=\"criteria\"]/option[6]/text()"
+        }
+    },
+    "FieldMED": {
+        "start_url": "http://www.shanghairanking.cn/FieldMED2015.html",
+        "1": {
+            "world_ranking_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[1]/text()",
+            "world_ranking_c": "//*[@id=\"UniversityRanking\"]//tr/td[1]/text()"
+        },
+        "2": {
+            "school_name_c": "//*[@id=\"UniversityRanking\"]//tr/td[2]/a/text()",
+            "school_name_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[2]/text()"
+        },
+        "3": {
+            "location_c": "//*[@id=\"UniversityRanking\"]//tr/td[3]/a/img[@src]",
+            "location_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[3]/text()"
+        },
+        "4": {
+            "total_score_c": "//*[@id=\"UniversityRanking\"]//tr/td[5]/div/text()",
+            "total_score_t": "//*[@id=\"UniversityRanking\"]//tr[1]/th[5]/text()"
+        },
+        "5": {
+            "index_alumni_c": "//*[@id=\"UniversityRanking\"]//tr/td[6]/div/text()",
+            "index_alumni_t": "//*[@id=\"criteria\"]/option[1]/text()"
+        },
+        "6": {
+            "index_award_c": "//*[@id=\"UniversityRanking\"]//tr/td[7]/div/text()",
+            "index_award_t": "//*[@id=\"criteria\"]/option[2]/text()"
+        },
+        "7": {
+            "index_hici_c": "//*[@id=\"UniversityRanking\"]//tr/td[8]/div/text()",
+            "index_hici_t": "//*[@id=\"criteria\"]/option[3]/text()"
+        },
+        "8": {
+            "index_pub_c": "//*[@id=\"UniversityRanking\"]//tr/td[10]/div/text()",
+            "index_pub_t": "//*[@id=\"criteria\"]/option[4]/text()"
+        },
+        "9": {
+            "index_top_c": "//*[@id=\"UniversityRanking\"]//tr/td[11]/div/text()",
+            "index_top_t": "//*[@id=\"criteria\"]/option[5]/text()"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+$def with (form, result=None)
+
+<p>$result</p>
+<form name="main" method="post"> 
+$if not form.valid: <p class="error">Try again, AmeriCAN:</p>
+$:form.render()
+<input type="submit" />
+</form>
+
+<input type="add a column" />

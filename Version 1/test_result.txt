@@ -1,0 +1,49 @@
+# 05162016:
+    for me:
+        *usnews missing pages sometimes, with unclear reason...
+        * write the index of paper to Lai
+    for you:
+        *1.run all 10 at one time, its seem too hard for memory of PC, so ...
+        *2.close broswer after after running
+        *3.make all pages start in one broswer (maybe can solve 1, 2 together)
+        *4.GUI to be done, logic from to customer input to our standard config_input
+            Config part, still need manually fix, like NSEAC, so can't make sure works
+            well when adding new config next time.
+        *5.<img> of Shanghai: it's href state now.
+    CODE style:
+        better add some comment;
+        change the config files loaction to top level,
+        change the file location in run_tmp.py
+
+
+
+# 05132016:
+    <img> of Shanghai.
+    nseac2016 > ARW : sometimes lost pages, dont know why?
+        OK, change xpath manually.
+
+
+# 05122016:
+saw 3 blank pages in broswer.
+
+Checking Result of the xls:
+
+    FUDANMEDranking-20160512213940.xls  > FieldALL : empty
+    NSEAC2016ranking-20160512213940.xls > CHINAARU-nseac2016 : some pages lost
+    SHANGHAIRANKINGranking-20160512213940.xls > ARWUR : empty
+    TIMESranking-20160512213940.xls  >  ARWUR : empty
+
+runned the 4 jsons together again:
+
+    Fudan is ok now,
+    Nseac still pages lost,
+    Shanghai is ok,
+    Times is ok.
+
+So, The question is,
+    why they got empty when we crawl all together???
+        No, dont't know yet
+    & what happened to Nseac???
+        OK, change all xpath div[5] to div[class=container][3].
+
+

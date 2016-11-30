@@ -1,0 +1,98 @@
+1.USNEWS（已经出新版，需更新：2016年）
+
+*: (mingming shi USNEWS, QS shi shenmo gui??? )
+
+a)QS排行榜：（749所）
+
+start_url:
+http://www.usnews.com/education/best-global-universities/rankings
+next_url:
+http://www.usnews.com/education/best-global-universities/rankings?page=2
+url_pattern:
+http://www.usnews.com/education/best-global-universities/rankings?page=75
+
+b)QS医学排行榜：上述网页中，从下拉表中找到医学榜，可能需要注册。或者从下网页进入（可能还是要注册的）（250所）
+
+same as the last one:
+http://www.usnews.com/education/best-global-universities/clinical-medicine?page=25
+
+2.TIMES（已经出新版，需更新：2015~2016年）
+
+Tips: need a radio select post option.
+    maybe we can select the "Display ??? records per page" to "ALL", then we can get all items in one url crawl.
+artical may help: http://www.tuicool.com/articles/nQ7Zbiq
+
+a)Times世界大学排行榜：（801所）
+
+start_url:
+https://www.timeshighereducation.com/world-university-rankings/2016/world-ranking#!/page/0/length/25
+https://www.timeshighereducation.com/world-university-rankings/2016/world-ranking#!/page/31/length/25
+
+b)临床医学排行榜：（101所）
+
+https://www.timeshighereducation.com/world-university-rankings/2016/subject-ranking/clinical-pre-clinical-health#!/page/0/length/25
+
+3.复旦（已经出新版，需更新：2014年）
+
+*: 奇葩的网页，CA
+
+a)最佳医院排行榜（综合）100所
+
+http://www.fudanmed.com/institute/news2014-2.aspx
+
+b)最佳医院排行榜（专科汇总）100所
+
+http://www.fudanmed.com/institute/news2014-3.aspx
+
+c)专科小榜如下：
+
+http://www.fudanmed.com/institute/news2014-1.aspx
+
+4.网大（尚未出新版，目前最新：2013年）
+
+a)待更新后采集（去年的数据用程序采集）
+
+
+===========================================
+5.西班牙	：5个基础表
+
+
+
+（1）世界大学排行榜（http://www.webometrics.info/en/world） 
+
+1.http://www.webometrics.info/en/world?page=29
+
+注1： 数据取前3000所。
+
+ 
+
+（2）-（5）世界大学排行榜-中国地区（含大陆、港澳台）数据从图6对应链接处获得，如红框所示
+
+
+http://www.webometrics.info/en/Asia/China%20
+注1：数据取前500所（大医位于约452）
+http://www.webometrics.info/en/Asia/Macau
+http://www.webometrics.info/en/Asia/Taiwan
+http://www.webometrics.info/en/Asia/Hong%20Kong
+
+
+
+===========================================
+6.上交
+
+a)大学排行榜500所：
+http://www.shanghairanking.cn/ARWU2015.html
+b)医科大学排行榜200所：
+http://www.shanghairanking.cn/FieldMED2015.html
+
+
+A paper:
+    DeepW+eb+可配置聚焦爬虫设计与实现
+    http://www.docin.com/p-1027836783.html
+
+
+使用Scrapy定制可动态配置的爬虫-三部曲
+http://wuchong.me/blog/2015/05/22/running-scrapy-programmatically/
+same topic: http://kirankoduru.github.io/python/multiple-scrapy-spiders.html
+
+

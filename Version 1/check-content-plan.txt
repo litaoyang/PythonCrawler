@@ -1,0 +1,25 @@
+for each xls we crawled, 
+check cells one by one to make sure it's correct.
+
+so, here is the plan:
+
+Li:
+shanghai
+fudan
+cuaa
+
+YANG:
+nseac2016&2015
+wo
+
+XUE:
+qs
+usnews
+times
+
+Crawl 10 times at least for each,
+check and record their states one by one.
+
+生成的execl保留，和报告最后一同打包周一中午12：00之前发给我。
+认真检测，出问题负责。
+

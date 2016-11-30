@@ -1,0 +1,71 @@
+# This is the third training meeting.
+# Time: 2016.04.19 18:00
+
+Before:
+    Finish the Selector part in doc.scrapy.org .
+
+This week:
+    First sight for our ShanghaiRankingSpider.
+
+======================================================
+PREPARE SOURCE
+=============
+
+Our spider project can get here:
+    https://github.com/JoySnow/GraduationProject_PythonCrawler
+git clone with:
+    https://github.com/JoySnow/GraduationProject_PythonCrawler.git
+
+URLs will be needed:
+  校友会网(static)
+    a)中国大学排行榜703所（1~100，后续表格可从网页中继续选择）：
+        001-100: http://www.cuaa.net/cur/2015/index_700
+        101-200: http://www.cuaa.net/cur/2015/03_700
+        201-300: http://www.cuaa.net/cur/2015/04_700
+        ...
+        601-700: http://www.cuaa.net/cur/2015/08
+    b)中国大学医学学科专业排行榜(103所???)：
+        http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+        里的第一个表：2015中国大学医学最佳专业排行榜100强
+        全表。
+    c)中国大学临床医学专业排行榜67所：
+        http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+        里的第二个表：2015中国大学医学四星级以上专业排行榜
+        中的符合：
+            临床医学类 | 临床医学 | ...
+        此种的共67行数据。
+
+======================================================
+TASK ONE ***
+=============
+
+Get the project code.
+Know how the run.py & shanghairanking.py work together.
+
+Tips:
+    If anything you don't understand, do find a way out by yourself.
+
+======================================================
+TASK TWO
+=============
+
+Write you own spider in cuaaranking.py.
+&
+Fix the run.py and make it do well with your new spider.
+
+======================================================
+TASK THREE
+=============
+
+I had make a testing script to scrapy python tutorial from www.liaoxuefeng.com,
+And you can get it here:
+    https://github.com/JoySnow/scrapy_liaoxuefengtutorial
+If you are intresting about it, then ...
+
+
+======================================================
+
+Any questions, Contact me Please.
+    QQ or QQ's email~
+
+So, Great!

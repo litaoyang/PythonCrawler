@@ -1,0 +1,69 @@
+{
+    "CHINAUR": {
+        "start_urls": ["http://www.nseac.com/html/14/666311.html", "http://www.nseac.com/html/14/666312.html", "http://www.nseac.com/html/14/666313.html"],
+	    "next_page": ["",
+                    "http://www.nseac.com/html/14/666312.html",
+                    "",
+                    "http://www.nseac.com/html/14/666313.html",
+                    ""],
+        "ranking_name": "CNURnseac",
+        "table_tag": "",
+        "columns": {
+            "1": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[1]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[1]/center/font/b"
+            },
+            "2": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[2]/a",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[2]/center/font/b"
+            },
+            "3": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[3]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[3]/center/font/b"
+            },
+            "4": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[4]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[4]/center/font/b"
+            },
+            "5": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[5]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[5]/center/font/b"
+            },
+            "6": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[6]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[6]/center/font/b"
+            },
+            "7": {
+                "content": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[7]",
+                "title": "/html/body/div[5]/div/div[1]/div[1]/table[1]/tbody/tr/td/table/tbody/tr[1]/td[7]/center/font/b"
+            }
+        }
+    },
+    "FieldMED": {
+        "start_urls": "",
+        "table_tag": "",
+        "ranking_name": "",
+        "columns": {
+            "1": {
+                "content": "",
+                "title": ""
+            },
+            "2": {
+                "content": "",
+                "title": ""
+            },
+            "3": {
+                "content": "",
+                "title": ""
+            },
+            "4": {
+                "content": "",
+                "title": ""
+            },
+            "5": {
+                "content": "",
+                "title": ""
+            }
+        }
+    }
+}

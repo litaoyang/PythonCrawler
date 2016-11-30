@@ -1,0 +1,70 @@
+1.QS
+a)QS排行榜918所（由于排行榜本身排序有问题，后续可能会有一定偏差）：
+http://www.topuniversities.com/university-rankings/world-university-rankings/2015#sorting=rank+region=+country=+faculty=+stars=false+search=
+b)QS医学排行榜381所：上述网页中，从下拉表中找到医学榜，需要注册。
+2.校友会网
+a)中国大学排行榜703所（1~100，后续表格可从网页中继续选择）：
+http://www.cuaa.net/cur/2015/index_700
+b)中国大学医学学科专业排行榜103所：
+http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+c)中国大学临床医学专业排行榜67所：
+http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+
+
+3.上交
+a)大学排行榜500所：
+http://www.shanghairanking.cn/ARWU2015.html
+b)医科大学排行榜200所：
+http://www.shanghairanking.cn/FieldMED2015.html
+4.西班牙（3000所）
+http://www.webometrics.info/en/world?sort=asc&order=ranking
+
+6.武汉大学（数据来源于大医）
+a)中国大学排行榜900所 
+纸质版书（1~500）
+http://www.nseac.com/html/14/666312.html （501~600）
+http://www.nseac.com/html/14/666313.html （601~900）
+
+（四）Times世界大学排行榜
+1、Times世界大学排行榜
+排名    院校名称    国家/地区   得分
+
+1数据与网上原表一致。
+2链接：
+http://www.timeshighereducation.co.uk/world-university-rankings/2014-15/world-ranking
+4 100所临床医学、临床前研究和健康排名
+（http://www.timeshighereducation.co.uk/world-university-rankings/2014-15/subject-ranking/subject/clinical-pre-clinical-health）
+
+（六）USNews世界大学排行榜
+1、USNews世界大学排行榜
+排名    院校名称    国家/地区   得分
+
+1数据与网上原表一致。
+2链接：http://www.usnews.com/education/best-global-universities/rankings?page=1
+3 国际排行榜均为中英文。
+
+（七）复旦大学医院排行榜
+1、复旦大学-****年度最佳专科排行榜
+排名    医院    所属院校    总分    专科类别得分
+专科1得分   专科2   。。    
+*** 0   
+1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2013-1.aspx
+2增加列“所属院校”。
+3 提名的医院，专科为0分；未提名的医院，专科列空白。在备注中说明。
+
+2、复旦大学-****年度最佳医院排行榜（专科汇总）100名
+排名    医院    所属院校    专科声誉汇总
+
+*** 
+1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2013-3.aspx
+
+
+2增加列“所属院校”。
+
+3、复旦大学-****年度最佳医院排行榜 （综合）
+排名    医院    所属院校    专科
+声誉    科研
+学术    总得分
+1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2013-2.aspx
+2增加列“所属院校”。
+

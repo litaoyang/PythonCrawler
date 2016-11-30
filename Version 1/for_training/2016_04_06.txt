@@ -1,0 +1,45 @@
+# This is the first training meeting.
+# Time: 2016.04.06 13:30
+
+Before:
+    Know the basic of Python Language.
+
+This week:
+    Start with Scrapy.
+
+======================================================
+TASK ONE ***
+=============
+
+doc.scrapy.org
+    Finish the "First Step" Part.
+    Try each example by your self.
+    Understand as more as possible.
+
+
+======================================================
+TASK TWO
+=============
+
+If you could get time to learn how to use github, that will be great.
+If not, it's just fine.
+
+TASK ONE is more important.
+
+
+======================================================
+TASK THREE
+=============
+
+I had make a testing script to scrapy python tutorial from www.liaoxuefeng.com,
+And you can get it here:
+    https://github.com/JoySnow/scrapy_liaoxuefengtutorial
+If you are intresting about it, then ...
+
+
+======================================================
+
+Any questions, Contact me Please.
+    QQ or QQ's email~
+
+So, Great!

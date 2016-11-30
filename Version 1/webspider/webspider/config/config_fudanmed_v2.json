@@ -1,0 +1,77 @@
+{
+    "XLS_FILENAME": "FUDANMED",
+    "FIELDALL-fudan": {
+        "start_urls": ["http://www.fudanmed.com/institute/news2014-1.aspx"],
+        "next_page": ["NONE"],
+        "flag": ["NONE"],
+        "ranking_name": "FIELDALLfudanmed2014-1",
+        "table_tag": "/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font[5]/font/font/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font[5]/font/font/table/tbody/tr[1]/td[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font[5]/font/font/table/tbody/tr[1]/td[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font[5]/font/font/table/tbody/tr[1]/td[3]/text()"
+            }
+		}
+    },
+    "BESThospital-fundan": {
+        "start_urls": ["http://www.fudanmed.com/institute/news2014-2.aspx"],
+        "next_page": ["NONE"],
+        "flag": [
+            "for_FUDAN",
+            {"content_special": [ ["2"], "content" ] } ],
+        "ranking_name": "BESThospitalfudanmed2014-2",
+        "table_tag": "/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[position()>1]",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+                "title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[1]/td[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+                "content_for_special": "td[2]/font/a/text()",
+                "title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[1]/td[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+                "title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[1]/td[3]/text()"
+            },
+            "4": {
+                "content": "td[4]/text()",
+                "title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[1]/td[4]/text()"
+            },
+            "5": {
+                "content": "td[5]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/font/table/tbody/tr[1]/td[5]/text()"
+            }
+        }
+    },
+	"BESThospital&field-fudan": {
+        "start_urls": ["http://www.fudanmed.com/institute/news2014-3.aspx"],
+        "next_page": ["NONE"],
+        "flag": ["NONE"],
+        "table_tag": "/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/table/tbody/tr[position()>1]",
+        "ranking_name": "BESThospital&fieldfudanmed2014-3",
+        "columns": {
+            "1": {
+                "content": "td[1]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/table/tbody/tr[1]/td[1]/text()"
+            },
+            "2": {
+                "content": "td[2]/a/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/table/tbody/tr[1]/td[2]/text()"
+            },
+            "3": {
+                "content": "td[3]/text()",
+				"title":"/html/body/form/table[1]/tbody/tr[2]/td/table/tbody/tr/td[2]/font/table[2]/tbody/tr[1]/td/table/tbody/tr[1]/td[3]/text()"
+            }
+        }
+    }
+}

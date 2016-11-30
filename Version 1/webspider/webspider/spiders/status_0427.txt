@@ -1,0 +1,13 @@
+# end now
+
+我要修改 nseac & usnew 的 config 文件，完成这俩爬虫。
+nseac: 主要是多个start_url, 每个要有一个独立sheet的问题。
+    解决：start_url只留一个，将一系列的url按顺序写进next_url中。让小朋友门测试即可。
+usnews: 翻页，?page=1此类。
+    #ON GOING
+    finished. 统计页还是有问题，待续。
+times: 搞定点击的问题: url works
+       再谈翻页。: option ALL, works
+
+browser.quit() 不是自动的，得改。
+

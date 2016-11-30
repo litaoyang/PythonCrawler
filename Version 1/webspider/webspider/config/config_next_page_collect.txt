@@ -1,0 +1,47 @@
+"next_page_xclick": ["/html/body/div[6]/div/section/div/section/div/div/div[1]/div/div[1]/div/div/div[2]/div/div[4]/label/select/option[5]"],
+
+"next_page_p": ["http://www.usnews.com/education/best-global-universities/rankings?page=NUM", "2", "4"],
+
+"next_page_list": ["http://www.cuaa.net/cur/2015/04_700",
+		              "http://www.cuaa.net/cur/2015/05_700",
+		              "http://www.cuaa.net/cur/2015/06",
+       		          "http://www.cuaa.net/cur/2015/07",
+		              "http://www.cuaa.net/cur/2015/08" ],
+
+"next_page_xurl": "/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href",
+"total_pages": "30",
+
+"next_page_xurl": ["/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href", "30"],
+
+None
+None
+
+
+        "next_page": [
+                "SHOWMORE_CLICK",
+                []
+        ],
+
+        "next_page": ["NONE"],
+
+
+XPATH_CLICK
+URL_PATTERN
+URL_LIST
+XPATH_URL
+SHOWMORE_CLICK
+NONE
+
+
+"next_page_xclick": [],
+
+"next_page_p": ["http://www.usnews.com/education/best-global-universities/rankings?page=NUM", "2", "4"],
+
+"next_page_list": ["http://www.cuaa.net/cur/2015/04_700",
+		              "http://www.cuaa.net/cur/2015/05_700",
+		              "http://www.cuaa.net/cur/2015/06",
+       		          "http://www.cuaa.net/cur/2015/07",
+		              "http://www.cuaa.net/cur/2015/08" ],
+
+"next_page_xurl": ["/html/body/div[2]/div[3]/div[2]/div[2]/div[1]/div[2]/div/div/div/div/ul/li[@class=\"pager-next\"]/a/@href", "30"],
+

@@ -1,0 +1,56 @@
+{
+    "QSARWU2015": {
+        "start_urls": "http://www.topuniversities.com/university-rankings/world-university-rankings/2015#sorting=rank+region=+country=+faculty=+stars=false+search=",
+        "ranking_name": "QSARWU2015",
+        "table_tag": "",
+        "columns": {
+            "1": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[1]/div/div/span[2]",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[1]"
+            },
+            "2": {
+                "content": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[2]/div/div/span[2]/a",
+                "title": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[2]"
+            },
+            "3": {
+                "content": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[3]/div/img",
+                "title": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[3]"
+            },
+            "4": {
+                "content": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[4]/div",
+                "title": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[1]/span/span[4]"
+            },
+            "5": {
+                "content": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/table/tbody/tr[1]/td[1]/div/div/span[3]",
+                "title": "html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[3]/div/div[2]/div[3]/div[2]/div[1]/div/div/span/span[1]/span"
+            },
+        }
+    },
+    "QSMED2016": {
+        "start_urls": "http://www.topuniversities.com/university-rankings/university-subject-rankings/2016/medicine#sorting=rank+region=+country=+faculty=+stars=fa",
+        "table_tag": "",
+        "ranking_name": "QSMED2016",
+        "columns": {
+            "1": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr[1]/td[1]/div/div/span[2]",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[1]"
+            },
+            "2": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr[1]/td[2]/div/div/span[2]/a",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[2]"
+            },
+            "3": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr[1]/td[3]/div/img",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[3]"
+            },
+            "4": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr[1]/td[4]/div",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[1]/th/span/span[4]"
+            },
+            "5": {
+                "content": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/tbody/tr[1]/td[1]/div/div/span[3]",
+                "title": "/html/body/div[2]/div/div/div/div/div[1]/div/div/div/div[1]/div/div/div[9]/div/div/div[4]/div/div[2]/table/thead/tr[2]/td[1]/div/div/span/span[1]/span"
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+
+##############################################################################
+
+1.QS(dynamic)(DONE)
+
+new: no
+
+2015/16:
+    a)QS排行榜918所（由于排行榜本身排序有问题，后续可能会有一定偏差）：
+        http://www.topuniversities.com/university-rankings/world-university-rankings/2015#sorting=rank+region=+country=+faculty=+stars=false+search=
+    b)QS医学排行榜381所：
+        http://www.topuniversities.com/university-rankings/university-subject-rankings/2016/medicine#sorting=rank+region=+country=+faculty=+stars=false+search=
+
+##############################################################################
+
+2.校友会网(static)(DONE)
+
+2016:
+    a)总榜
+    http://www.cuaa.net/cur/2016/
+    b)没找到对应的医学相关的。
+    c)
+
+2015:
+    a)中国大学排行榜703所（1~100，后续表格可从网页中继续选择）：
+        001-100: http://www.cuaa.net/cur/2015/index_700
+        101-200: http://www.cuaa.net/cur/2015/03_700
+        201-300: http://www.cuaa.net/cur/2015/04_700
+        301-400: http://www.cuaa.net/cur/2015/05_700
+        401-500: http://www.cuaa.net/cur/2015/06
+        501-600: http://www.cuaa.net/cur/2015/07
+        601-700: http://www.cuaa.net/cur/2015/08
+    b)中国大学医学学科专业排行榜(103所???)：
+        http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+        里的第一个表：2015中国大学医学最佳专业排行榜100强
+        全表。
+    c)中国大学临床医学专业排行榜67所：
+        http://www.cuaa.net/cur/2015/bkzypm/15.shtml
+        里的第二个表：2015中国大学医学四星级以上专业排行榜
+        中的符合：
+            临床医学类 | 临床医学 | ...
+        此种的共67行数据。
+
+##############################################################################
+
+3.上交(static)(DONE)
+
+new: no
+
+2015:
+    a)大学排行榜500所：
+        http://www.shanghairanking.cn/ARWU2015.html
+    b)医科大学排行榜200所：
+        http://www.shanghairanking.cn/FieldMED2015.html
+
+##############################################################################
+
+4.西班牙(dynamic: source-code different from crawled html.)(DONE)
+
+new: no
+
+version 2016.1.1:
+    （1）世界大学排行榜（http://www.webometrics.info/en/world）
+        注1： 数据取前3000所。
+        http://www.webometrics.info/en/world?sort=asc&order=ranking
+        http://www.webometrics.info/en/world?page=1&sort=asc&order=ranking
+        ...
+        http://www.webometrics.info/en/world?page=29&sort=asc&order=ranking
+        and it has more ...until
+        http://www.webometrics.info/en/world?page=119&sort=asc&order=ranking
+
+    （2）-（5）世界大学排行榜-中国地区（含大陆、港澳台）数据从图6对应链接处获得，如红框所示
+        http://www.webometrics.info/en/Asia/China%20
+        注1：数据取前500所（大医位于约452）
+        http://www.webometrics.info/en/Asia/Macau
+        http://www.webometrics.info/en/Asia/Taiwan
+        http://www.webometrics.info/en/Asia/Hong%20Kong
+
+
+##############################################################################
+
+5.武汉大学（数据来源于大医）(static)
+    ** for MED & CLMED in 2015&2016, there are some dynamic blocks in HTML,
+    ** and the default xpath can not work well all the time.
+    ** so we changed their xpath manualy, make it work now.
+    ** just write it in doc.
+    a)2015: in config_nseac_2015_v2.json
+        1)中国大学排行榜900所
+        http://www.nseac.com/html/14/666311.html （001~300）
+        http://www.nseac.com/html/14/666312.html （301~600）
+        http://www.nseac.com/html/14/666313.html （601~900）
+        2)MED
+        http://www.nseac.com/html/258/665742.html
+        3)CLMED
+        http://www.nseac.com/html/261/665958.html
+
+    b)2016: in config_nseac_2016_v2.json
+        1)中国大学排行榜
+        http://www.nseac.com/html/263/676578.html
+        http://www.nseac.com/html/263/676579.html
+        http://www.nseac.com/html/263/676580.html
+        2)MED
+        http://www.nseac.com/html/258/676483.html
+        3)CLMED
+        http://www.nseac.com/html/261/676055.html
+
+##############################################################################
+
+6.TIMES（已经出新版，需更新：2015~2016年）
+    排名    院校名称    国家/地区   得分
+
+new: no
+
+2015-2016:
+    a)Times世界大学排行榜：（801所）
+
+        start_url:
+        https://www.timeshighereducation.com/world-university-rankings/2016/world-ranking#!/page/0/length/25
+        https://www.timeshighereducation.com/world-university-rankings/2016/world-ranking#!/page/31/length/25
+
+    b)临床医学排行榜：（101所）
+
+        https://www.timeshighereducation.com/world-university-rankings/2016/subject-ranking/clinical-pre-clinical-health#!/page/0/length/25
+
+##############################################################################
+
+7. USNews世界大学排行榜
+
+new: no
+
+2016:
+    a)USNews世界大学排行榜
+        排名    院校名称    国家/地区   得分
+        start_url:
+        http://www.usnews.com/education/best-global-universities/rankings
+        next_url:
+        http://www.usnews.com/education/best-global-universities/rankings?page=2
+        url_pattern:
+        http://www.usnews.com/education/best-global-universities/rankings?page=75
+
+    b)医学排行榜：上述网页中，从下拉表中找到医学榜，可能需要注册。或者从下网页进入（可能还是要注册的）（250所）
+        http://www.usnews.com/education/best-global-universities/clinical-medicine?page=25
+
+##############################################################################
+
+8. 复旦大学医院排行榜
+
+new: no
+
+2014:
+    a) 复旦大学-****年度最佳专科排行榜
+        排名    医院    所属院校    总分    专科类别得分    专科1得分   专科2
+        1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2014-1.aspx
+        2增加列“所属院校”。
+        3 提名的医院，专科为0分；未提名的医院，专科列空白。在备注中说明。
+
+    b) 复旦大学-****年度最佳医院排行榜（专科汇总）100名
+        排名    医院    所属院校    专科声誉汇总
+        1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2014-3.aspx
+        2增加列“所属院校”。
+
+    c) 复旦大学-****年度最佳医院排行榜 （综合）
+        排名    医院    所属院校    专科声誉    科研学术    总得分
+        1除最后一列，其他列数据与网上数据一致。链接：http://www.fudanmed.com/institute/news2014-2.aspx
+        2增加列“所属院校”。
+
